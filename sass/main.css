@@ -211,6 +211,7 @@ h2 {
 }
 @media (min-width: 725px) {
   .main-nav {
+    display: unset;
     position: relative;
     flex: auto;
     background: none;

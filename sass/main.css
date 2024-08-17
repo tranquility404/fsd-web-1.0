@@ -207,6 +207,7 @@ h2 {
   overflow: hidden;
   transition: all ease-in-out 250ms;
   font-size: 1.2rem;
+  display: none;
 }
 @media (min-width: 725px) {
   .main-nav {
@@ -266,6 +267,7 @@ h2 {
   }
 }
 .main-nav.is-open {
+  display: initial;
   left: 0;
 }
 
